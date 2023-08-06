@@ -1,0 +1,50 @@
+<section class="featured-blog mtb-40">
+    <div class="container">
+      <div class="row">
+          
+        <div class="col">
+          <div class="blog-box">
+            
+            <div style="background-image: url('assets/images/pub.png'); 
+            background-size: cover; height:480px; padding-top:80px;"class="wrapper">
+                <div  class="inner-warpper text-center">
+                  <h2 class="title">Ride Details</h2>
+                  <form (submit)="sendPool()">
+                    <label for="name"></label><br>
+                <input type="text" id="name" name="name" placeholder="Leaving from" [(ngModel)]="pool.from"><br>
+                <label for="password"></label><br>
+                <input type="text" id="password" name="passwpord" placeholder="Going to" [(ngModel)]="pool.to"><br><br>
+                <label for="cars">Passengers:</label>
+                <select id="cars" name="cars" [(ngModel)]="pool.n_seats">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+                  <br>
+                  <br>
+                  <div>
+              
+                    <button type="submit" id="login">Share Ride</button>  
+                  </div>
+                  </form>
+              
+            
+          </div>
+
+
+          
+        </div>
+        
+        <div class="col">
+            <div class="blog-box">
+              <img src="assets/images/publish.png" alt="blog1">
+              
+            </div>
+          </div> 
+          
+        
+      </div>
+    </div>
+
+

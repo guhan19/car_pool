@@ -1,0 +1,38 @@
+<section class="blog-detail mtb-40">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="blog-left">
+            <h1>Ask for help-Text editor</h1>
+           <div class="blog-desc">
+             <section class="mb-4">
+ <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+ <div class="row">
+<div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+<div class="row">
+ <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    </div>
+                </form> <angular-editor [placeholder]="'Enter text here...'" ></angular-editor>
+        </div>
+        
+        </div>
+        <div class="fileButtons">
+          <input (change)="onChangeLoad($event)" type="file" id="fileinput" />
+          <input (click)="onClickSave()" type="button" value="Save as PDF" />
+        </div>
+</section>
+
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>

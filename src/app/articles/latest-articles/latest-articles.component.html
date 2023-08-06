@@ -1,0 +1,52 @@
+<section class="featured-blog mtb-40">
+    <div class="container">
+      <div class="row">
+          <h1 class="title-heading" >CAR POOLING</h1>
+        <div class="row">
+          <div class="blog-box">
+            <img src="assets/images/traff.png" alt="blog1">
+            <form (submit)="search_pool()">
+              <label for="source">Source:</label>
+              <input type="text" id="source" name="source" placeholder="Leaving from" [(ngModel)]="pool.from">
+            
+              <label for="destination">Destination:</label>
+              <input type="text" id="destination" name="destination" placeholder="Going to" [(ngModel)]="pool.to">
+            
+              <input type="submit" value="Search">
+            </form>
+            <ul>
+              <li *ngFor="let pool of pools">
+                from: {{ pool.from }}
+                to: {{ pool.to }}
+              </li>
+            </ul>
+          </div>
+
+
+          
+        </div>
+        <div class="row">
+          <div class="blog-box">
+            <img src="assets/images/drive.png" alt="blog1">
+            
+          </div>
+        </div> 
+        <div class="row">
+          <div class="blog-box">
+            <img src="assets/images/safe.jpg" alt="post1">
+
+            
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="blog-box">
+            <source src="assets/images/taxi.mp4" type="video/mp4">
+
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
