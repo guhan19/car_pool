@@ -1,6 +1,6 @@
 CAR POOLING
 
-It is an online portal for sharing a ride . It ensures fuel efficiency.
+The online carpooling system is a web-based application is to provide us with a simple riding platform between the car owner and car user. This project enables users to access mobility assets own by others exactly when they need. It shows a medium for available cars to pick up them on the interest of car owner with time and capacity.It ensures fuel efficiency.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
 
