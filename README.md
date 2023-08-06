@@ -1,4 +1,6 @@
-# CarProject
+CAR POOLING
+
+It is an online portal for sharing a ride . It ensures fuel efficiency.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
 
